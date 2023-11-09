@@ -1,5 +1,5 @@
 ## Título: Machine Learning y Eco-hidrología: Pronóstico de la Actividad Vegetal en el Bosque Tropical Seco del Cañón del Río Cauca
-### Autores: Eileen Melissa Arévalo @emarevalog / Pablo Uribe Uribe @Blouri
+### Autores: Eileen Melissa Arévalo / Pablo Uribe Uribe 
 ### Grupo: 8
 
 
