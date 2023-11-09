@@ -1,5 +1,5 @@
 ## Título: Machine Learning y Eco-hidrología: Pronóstico de la Actividad Vegetal en el Bosque Tropical Seco del Cañón del Río Cauca
-### Autores: Eileen Melissa Arévalo / Pablo Uribe Uribe 
+### Autores: Eileen Melissa Arévalo y Pablo Uribe Uribe 
 ### Grupo: 8
 
 
@@ -21,15 +21,15 @@ Examina los histogramas, diagramas de cajas, gráficos de dispersión y la matri
 ### Descripción del Conjunto de Datos
 El conjunto de datos contiene información climática mensual con las siguientes variables:
 
-Mes
-NDVI_Sat
-Precipitación_Modelo_Swb
-Evapotranspiración_Actual_Modelo_Swb
-Intercepción_Modelo_Swb
-Evapotranspiración_Potencial_Modelo_Swb
-Humedad_Del_Suelo_Modelo_Swb
-Recarga_Modelo_Swb
-Ml (columna sin valores)
+*Mes
+*NDVI_Sat
+*Precipitación_Modelo_Swb
+*Evapotranspiración_Actual_Modelo_Swb
+*Intercepción_Modelo_Swb
+*Evapotranspiración_Potencial_Modelo_Swb
+*Humedad_Del_Suelo_Modelo_Swb
+*Recarga_Modelo_Swb
+*Ml (columna sin valores)
 
 ### Visualizaciones Incluidas
 
