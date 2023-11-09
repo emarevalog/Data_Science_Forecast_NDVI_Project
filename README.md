@@ -9,9 +9,9 @@
 Este conjunto de códigos en Google Colab realiza una exploración exhaustiva de datos climáticos utilizando diversas técnicas de visualización y análisis estadístico. El código utiliza el lenguaje de programación Python y las bibliotecas populares como Pandas, Matplotlib, Seaborn y SciPy.
 
 ### Contenido del Repositorio
-Exploracion_de_Datos.ipynb: Este es el cuaderno de Google Colab que contiene todo el código para la exploración de datos.
+- Exploracion_de_Datos.ipynb: Este es el cuaderno de Google Colab que contiene todo el código para la exploración de datos.
 
-datos.csv: El conjunto de datos utilizado en el análisis. Este archivo debe mantenerse en la misma carpeta que el cuaderno de Google Colab.
+- datos.csv: El conjunto de datos utilizado en el análisis. Este archivo debe mantenerse en la misma carpeta que el cuaderno de Google Colab.
 
 ### Instrucciones de Uso
 Abre el cuaderno de Google Colab, Exploracion_de_Datos.ipynb, en tu entorno de Google Colab.
@@ -49,6 +49,3 @@ Matriz de Correlación: Representa la fuerza y dirección de las relaciones line
 ```bash
   !pip install nombre_de_la_libreria
 ```
-
-### Contribuciones
-¡Las contribuciones son bienvenidas! Si encuentras formas de mejorar el análisis, optimizar el código o agregar visualizaciones adicionales, no dudes en enviar una solicitud de extracción.
