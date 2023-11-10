@@ -43,7 +43,6 @@ Gráficos de Dispersión: Presenta la relación entre el NDVI_Sat y otras variab
 Matriz de Correlación: Representa la fuerza y dirección de las relaciones lineales entre las variables.
 
 ### Requisitos
--Se requiere acceso a internet para cargar el conjunto de datos desde un enlace de GitHub.
 
 -Las bibliotecas de Python utilizadas en el cuaderno deben estar instaladas. Puedes instalarlas utilizando
 ```bash
