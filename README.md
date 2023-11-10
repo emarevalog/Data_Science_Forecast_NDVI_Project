@@ -11,7 +11,7 @@ Este conjunto de códigos en Google Colab realiza una exploración exhaustiva de
 ### Contenido del Repositorio
 - Exploracion_de_Datos.ipynb: Este es el cuaderno de Google Colab que contiene todo el código para la exploración de datos.
 
-- datos.csv: El conjunto de datos utilizado en el análisis. Este archivo debe mantenerse en la misma carpeta que el cuaderno de Google Colab.
+- Datos.csv: El conjunto de datos utilizado en el análisis. Este archivo debe mantenerse en la misma carpeta que el cuaderno de Google Colab.
 
 ### Instrucciones de Uso
 Abre el cuaderno de Google Colab, Exploracion_de_Datos.ipynb, en tu entorno de Google Colab.
@@ -21,16 +21,16 @@ Ejecuta cada celda secuencialmente para cargar los datos y realizar análisis.
 Examina los histogramas, diagramas de cajas, gráficos de dispersión y la matriz de correlación para comprender las distribuciones y relaciones entre las variables climáticas.
 
 ### Descripción del Conjunto de Datos
-El conjunto de datos contiene información climática mensual con las siguientes variables:
+El conjunto de datos contiene información climática mensual con las siguientes variables. NDVI fue obtenida por procesamiento de imágenes del satélite MODIS, las demás provienen del modelo Soil-Water Balance (SWB)  :
 
-- Mes
-- NDVI_Sat
-- Precipitación_Modelo_Swb
-- Evapotranspiración_Actual_Modelo_Swb
-- Intercepción_Modelo_Swb
-- Evapotranspiración_Potencial_Modelo_Swb
-- Humedad_Del_Suelo_Modelo_Swb
-- Recarga_Modelo_Swb
+- Mes (1 al 12)
+- NDVI
+- Precipitación(mm)
+- Evapotranspiración (mm) 
+- Intercepción (mm)
+- Evapotranspiración (mm)
+- Humedad_Suelo (mm)
+- Recarga (mm)
 
 ### Visualizaciones Incluidas
 
