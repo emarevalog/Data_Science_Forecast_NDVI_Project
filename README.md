@@ -5,32 +5,34 @@
 ### Grupo: 8
 
 
-## Exploración de Datos - Análisis de Variables Climáticas
-Este conjunto de códigos en Google Colab realiza una exploración exhaustiva de datos climáticos utilizando diversas técnicas de visualización y análisis estadístico. El código utiliza el lenguaje de programación Python y las bibliotecas populares como Pandas, Matplotlib, Seaborn y SciPy.
+## Exploración y Preprocesamiento de Datos
+Este conjunto de códigos realiza la exploración y preprocesamiento de datos utilizando Python en un entorno de Google Colab. El código realiza diversas tareas, desde la carga de datos hasta la estandarización y guardado en un archivo CSV.
 
 ### Contenido del Repositorio
 - Exploracion_de_Datos.ipynb: Este es el cuaderno de Google Colab que contiene todo el código para la exploración de datos.
 
-- Datos.csv: El conjunto de datos utilizado en el análisis. Este archivo debe mantenerse en la misma carpeta que el cuaderno de Google Colab.
+- Datos.csv: El conjunto de datos crudos que se utilizará en el análisis
 
 ### Instrucciones de Uso
 Abre el cuaderno de Google Colab, Exploracion_de_Datos.ipynb, en tu entorno de Google Colab.
 
+Para cargar los datos ve al archivo [Enlace a Datos.csv](https://github.com/emarevalog/Machine_learning_project/blob/main/Datos.csv) y copia la ruta de los datos crudos y pegala en pathfile
+
 Ejecuta cada celda secuencialmente para cargar los datos y realizar análisis.
 
-Examina los histogramas, diagramas de cajas, gráficos de dispersión y la matriz de correlación para comprender las distribuciones y relaciones entre las variables climáticas.
+Examina los histogramas, diagramas de cajas, gráficos de dispersión, gráficos de líneas y la matriz de correlación para comprender las distribuciones y relaciones entre las variables climáticas.
 
 ### Descripción del Conjunto de Datos
 El conjunto de datos contiene información climática mensual con las siguientes variables. NDVI fue obtenida por procesamiento de imágenes del satélite MODIS, las demás provienen del modelo Soil-Water Balance (SWB)  :
 
 - Mes (1 al 12)
 - NDVI
-- Precipitación(mm)
-- Evapotranspiración (mm) 
-- Intercepción (mm)
-- Evapotranspiración (mm)
-- Humedad_Suelo (mm)
-- Recarga (mm)
+- Precipitación(ml)
+- Evapotranspiración (ml) 
+- Intercepción (ml)
+- Evapotranspiración (ml)
+- Humedad_Suelo (ml)
+- Recarga (ml)
 
 ### Visualizaciones Incluidas
 
@@ -39,6 +41,8 @@ Histogramas: Muestra la distribución de cada variable junto con la curva de mej
 Diagramas de Cajas: Proporciona una representación visual de la distribución estadística, mostrando la mediana, cuartiles y valores atípicos.
 
 Gráficos de Dispersión: Presenta la relación entre el NDVI_Sat y otras variables climáticas.
+
+Gráficos de líneas: Muestra cómo las variables evolucionan a lo largo del año, permiten identificar patrones y tendencias.
 
 Matriz de Correlación: Representa la fuerza y dirección de las relaciones lineales entre las variables.
 
